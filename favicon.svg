@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#110F0D"/>
+  <g transform="translate(50 50) scale(0.9) translate(-50 -50)">
+  <!--
+    The Cadence mark (chosen 31 Oct 2026, direction A4).
+    The Range Mode par ring stopped partway, open on the right so it is also
+    a C, around a small reticle: a dot, one thin ring, four ticks through it.
+    The ring is radius 33.5 with a 15-unit stroke and a 75-degree opening.
+    Transparent ground; scripts/generate-icons.mjs composes it on #110F0D.
+    src/components/ui/BrandMark.tsx draws the same geometry in the app.
+  -->
+  <path d="M 76.58 70.39 A 33.5 33.5 0 1 1 76.58 29.61" fill="none" stroke="#F2B705" stroke-width="15"/>
+  <circle cx="50" cy="50" r="5" fill="#F2B705"/>
+  <circle cx="50" cy="50" r="12.5" fill="none" stroke="#F2B705" stroke-width="3"/>
+  <rect x="48.5" y="32" width="3" height="9" fill="#F2B705"/>
+  <rect x="48.5" y="59" width="3" height="9" fill="#F2B705"/>
+  <rect x="32" y="48.5" width="9" height="3" fill="#F2B705"/>
+  <rect x="59" y="48.5" width="9" height="3" fill="#F2B705"/>
+</g>
+</svg>
